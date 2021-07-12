@@ -1,0 +1,10 @@
+  * coc-prettier 1.1.24 ~/.config/coc/extensions/node_modules/coc-prettier
+  * coc-pairs 1.3.0 ~/.config/coc/extensions/node_modules/coc-pairs
+  * coc-json 1.3.6 ~/.config/coc/extensions/node_modules/coc-json
+  * coc-html 1.4.1 ~/.config/coc/extensions/node_modules/coc-html
+  * coc-eslint 1.4.5 ~/.config/coc/extensions/node_modules/coc-eslint
+  * coc-emmet 1.1.6 ~/.config/coc/extensions/node_modules/coc-emmet
+  + coc-tsserver 1.8.1 ~/.config/coc/extensions/node_modules/coc-tsserver
+  + coc-css 1.2.6 ~/.config/coc/extensions/node_modules/coc-css
+  + es7-react-js-snippets [RTP] 3.1.1 ~/.vim/plugged/vscode-es7-javascript-react-snippets
+

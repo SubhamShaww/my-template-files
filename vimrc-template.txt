@@ -146,13 +146,7 @@ set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 
-" Remap help key.
-inoremap <F1> <ESC>:set invfullscreen<CR>a
-nnoremap <F1> :set invfullscreen<CR>
-vnoremap <F1> :set invfullscreen<CR>
-
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 
 " Textmate holdouts
 
@@ -214,6 +208,9 @@ endfunction
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Then you can use :Prettier to format current buffer.
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
